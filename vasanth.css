@@ -1,0 +1,42 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav-links{
+    list-style: none;
+    transform: 0.5s;
+    margin-left: auto;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 5px;
+    
+}
+.nav-links li a.active{
+    color: white;
+}
+.nav-links li a:hover{
+    color: 7D53DF;
+
+}
+.active{
+    background-color: 7D53DF;
+    border-radius: 50px;
+}
